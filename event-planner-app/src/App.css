@@ -1,0 +1,15 @@
+/* App.css */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
+
+.app-content {
+  flex: 1;
+  padding: 2rem; /* Increase padding for spacing */
+  display: flex;
+  justify-content: center;
+}
+
