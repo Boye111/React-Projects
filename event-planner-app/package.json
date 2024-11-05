@@ -2,6 +2,7 @@
   "name": "event-planner-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Boye111.github.io/React-Projects/event-planner-app",
   "dependencies": {
     "@reduxjs/toolkit": "^2.3.0",
     "@testing-library/jest-dom": "^5.17.0",
@@ -16,8 +17,7 @@
     "react-router-dom": "^6.27.0",
     "react-scripts": "^5.0.1",
     "redux": "^5.0.1",
-    "web-vitals": "^2.1.4",
-    "homepage": "https://Boye111.github.io/React-Projects"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -47,6 +47,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.2.0",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.14"
   }

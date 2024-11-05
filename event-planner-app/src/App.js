@@ -1,6 +1,6 @@
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import React, { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
-import { Route, Routes } from 'react-router-dom';
 import Navbar from './components/NavBar/NavBar';
 import EventList from './components/EventList/EventList';
 import EventDetail from './components/EventDetail/EventDetail';
@@ -20,6 +20,7 @@ const App = () => {
   }, [dispatch]);
 
   return (
+    <Router basename="/React-Projects/event-planner-app">
     <div className="app">
       <Navbar />
       <main className="app-content">
@@ -33,6 +34,7 @@ const App = () => {
       </main>
       <Footer />
     </div>
+    </Router>
   );
 };
 
